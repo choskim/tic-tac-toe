@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="javascript/player.js" defer></script>
+    <script src="javascript/game.js" defer></script>
+    <script src="javascript/main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tic-Tac-Toe</h1>
+    </header>
+
+    <div id="box">
+    </div>
+
+    <main id="flex-container">
+      <section id="game-board">
+        <div class="top left" data-magic-square="2"></div>
+        <div class="top center" data-magic-square="7"></div>
+        <div class="top right" data-magic-square="6"></div>
+
+        <div class="middle left" data-magic-square="9"></div>
+        <div class="middle center" data-magic-square="5"></div>
+        <div class="middle right" data-magic-square="1"></div>
+
+        <div class="bottom left" data-magic-square="4"></div>
+        <div class="bottom center" data-magic-square="3"></div>
+        <div class="bottom right" data-magic-square="8"></div>
+      </section>
+
+      <ul id="score-board">
+        <li>
+          <div>Player(x)</div>
+          <div id="x">0</div>
+        </li>
+        <li>
+          <div>Draw</div>
+          <div id="draw">0</div>
+        </li>
+        <li>
+          <div>Player(o)</div>
+          <div id="o">0</div>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
