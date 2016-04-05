@@ -7,7 +7,7 @@ body {
 }
 
 body h1 {
-  font-size: 10em;
+  font-size: 3em;
   margin-bottom: 5%;
 }
 
@@ -31,8 +31,8 @@ body#flex-container {
   justify-content: center;
   align-items: center;
 
-  height: 4em;
-  font-size: 7.5em;
+  height: 1em;
+  font-size: 5.5em;
   font-weight: 900;
 }
 
@@ -52,7 +52,6 @@ ul#score-board {
   list-style-type: none;
   margin: 0;
   padding: 3em 0 2em 0;
-  font-size:3em;
   font-weight: 700;
 }
 
